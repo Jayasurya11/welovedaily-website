@@ -1,0 +1,68 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+.qna {
+  margin-bottom: 100px;
+}
+
+.qna li {
+  list-style: none;
+
+  color: white;
+}
+span {
+  font-size: 30px;
+  margin-right: 5px;
+}
+.qna li div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+}
+.qna li p {
+  margin: auto 0;
+}
+.show {
+  display: block;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+li div:last-child {
+  padding: 15px 10px;
+  border-top: 2px solid #202020;
+}
+.qna li:nth-of-type(1) {
+  border: 2px solid #202020;
+}
+
+.qna li:nth-of-type(2),
+.qna li:nth-of-type(3),
+.qna li:nth-of-type(4),
+.qna li:nth-of-type(5),
+.qna li:nth-of-type(6) {
+  border-left: 2px solid #202020;
+  border-right: 2px solid #202020;
+  border-bottom: 2px solid #202020;
+}
+.bordering {
+  border: 2px solid white;
+}
+.faqHeading {
+  font-size: 80px;
+  display: block;
+  text-align: center;
+  margin: 30px 0;
+}
+section {
+  color: white;
+}
+.contact {
+  margin: 15px 0;
+  display: block;
+  text-align: center;
+}

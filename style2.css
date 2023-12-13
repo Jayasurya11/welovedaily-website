@@ -1,0 +1,61 @@
+.submit {
+  font-size: 80px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.form input {
+  background-color: rgba(37, 34, 34, 0.232);
+  border: none;
+  color: white;
+}
+.form input:focus {
+  background-color: rgba(37, 34, 34, 0.232);
+  border: 1px solid white;
+  box-shadow: none;
+  color: white;
+}
+.form {
+  color: white;
+  padding: 0 250px;
+}
+.form h3 {
+  text-align: center;
+}
+.subBtn {
+  width: fit-content;
+  height: fit-content;
+  display: block;
+  padding: 10px 10px;
+  font-size: larger;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.stripe {
+  padding-bottom: 90px;
+}
+@media (max-width: 1000px) {
+  .form {
+    padding: 0 20px;
+  }
+  .submit {
+    font-size: 50px;
+  }
+}
+.subBtn {
+  border: 1px solid white;
+  background-color: rgba(37, 34, 34, 0.232);
+  color: white;
+}
+.subBtn:hover {
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+}
+.inform {
+  color: rgba(255, 255, 255, 0.514);
+}
+.inform a {
+  color: rgba(255, 255, 255, 0.514);
+  text-decoration: underline;
+}
